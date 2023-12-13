@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHrmApplicationParallel" parallel="tests">
+	<test name="BaseTestfunctionality">
+		<classes>
+			<class name="com.OHRM.BaseTest"></class>
+		</classes>
+	</test>
+	<test name="LoginTestfunctionality">
+		<classes>
+			<class name="com.OHRM.LoginTest"></class>
+		</classes>
+	</test>
+	<test name="AddEmployeePagefunctionality">
+		<classes>
+			<class name="com.OHRM.AddEmployeePage"></class>
+		</classes>
+	</test>
+	<test name="personalDetailsfunctionality">
+		<classes>
+			<class name="com.OHRM.personalDetails"></class>
+		</classes>
+	</test>
+	<test name="EmployeeListfunctionality">
+		<classes>
+			<class name="com.OHRM.EmployeeList"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="30" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-12T20:57:34 IST" name="OrangeHrmApplicationParallel" finished-at="2023-12-12T20:58:14 IST" duration-ms="39935">
+    <groups>
+    </groups>
+    <test started-at="2023-12-12T20:57:34 IST" name="BaseTestfunctionality" finished-at="2023-12-12T20:57:52 IST" duration-ms="18061">
+      <class name="com.OHRM.BaseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OHRM.BaseTest@2fd1433e]" started-at="2023-12-12T20:57:34 IST" name="setup" finished-at="2023-12-12T20:57:41 IST" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OHRM.BaseTest@2fd1433e]" started-at="2023-12-12T20:57:41 IST" name="teardown" finished-at="2023-12-12T20:57:52 IST" duration-ms="10452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OHRM.BaseTest -->
+    </test> <!-- BaseTestfunctionality -->
+    <test started-at="2023-12-12T20:57:34 IST" name="LoginTestfunctionality" finished-at="2023-12-12T20:57:54 IST" duration-ms="19922">
+      <class name="com.OHRM.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OHRM.LoginTest@58d75e99]" started-at="2023-12-12T20:57:34 IST" name="setup" finished-at="2023-12-12T20:57:40 IST" duration-ms="6147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LogInPaneltext()[pri:1, instance:com.OHRM.LoginTest@58d75e99]" started-at="2023-12-12T20:57:40 IST" name="LogInPaneltext" description="Functionality of LogInPage" finished-at="2023-12-12T20:57:43 IST" duration-ms="2989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPaneltext -->
+        <test-method signature="usernameandpassword()[pri:2, instance:com.OHRM.LoginTest@58d75e99]" started-at="2023-12-12T20:57:43 IST" name="usernameandpassword" description="Giving Valid data of UserName And Password" finished-at="2023-12-12T20:57:53 IST" duration-ms="9885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameandpassword -->
+        <test-method signature="welComeAdmin()[pri:3, instance:com.OHRM.LoginTest@58d75e99]" started-at="2023-12-12T20:57:53 IST" name="welComeAdmin" description="Validating the WelCome Admin page" finished-at="2023-12-12T20:57:53 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welComeAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OHRM.LoginTest@58d75e99]" started-at="2023-12-12T20:57:53 IST" name="teardown" finished-at="2023-12-12T20:57:54 IST" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OHRM.LoginTest -->
+    </test> <!-- LoginTestfunctionality -->
+    <test started-at="2023-12-12T20:57:34 IST" name="AddEmployeePagefunctionality" finished-at="2023-12-12T20:58:01 IST" duration-ms="26912">
+      <class name="com.OHRM.AddEmployeePage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:34 IST" name="setup" finished-at="2023-12-12T20:57:41 IST" duration-ms="7437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LogInPaneltext()[pri:1, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:41 IST" name="LogInPaneltext" description="Functionality of LogInPage" finished-at="2023-12-12T20:57:43 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPaneltext -->
+        <test-method signature="usernameandpassword()[pri:2, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:43 IST" name="usernameandpassword" description="Giving Valid data of UserName And Password" finished-at="2023-12-12T20:57:46 IST" duration-ms="3103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameandpassword -->
+        <test-method signature="welComeAdmin()[pri:3, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:46 IST" name="welComeAdmin" description="Validating the WelCome Admin page" finished-at="2023-12-12T20:57:46 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welComeAdmin -->
+        <test-method signature="PIMMouseHover()[pri:4, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:46 IST" name="PIMMouseHover" description="Operating the functionality of PIM" finished-at="2023-12-12T20:57:47 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIMMouseHover -->
+        <test-method signature="AddEmployeeTextPageTest()[pri:5, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:47 IST" name="AddEmployeeTextPageTest" description="AddEmployee click operation and validating AddEmployee Page Functionality" finished-at="2023-12-12T20:57:48 IST" duration-ms="1367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployeeTextPageTest -->
+        <test-method signature="UserData()[pri:6, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:48 IST" name="UserData" description="Giving the User Data Information Functionality" finished-at="2023-12-12T20:57:49 IST" duration-ms="1048" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserData -->
+        <test-method signature="photo()[pri:7, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:57:49 IST" name="photo" description="Validating the photography" finished-at="2023-12-12T20:58:00 IST" duration-ms="10801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- photo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OHRM.AddEmployeePage@54bff557]" started-at="2023-12-12T20:58:00 IST" name="teardown" finished-at="2023-12-12T20:58:01 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OHRM.AddEmployeePage -->
+    </test> <!-- AddEmployeePagefunctionality -->
+    <test started-at="2023-12-12T20:57:34 IST" name="personalDetailsfunctionality" finished-at="2023-12-12T20:58:04 IST" duration-ms="30063">
+      <class name="com.OHRM.personalDetails">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:34 IST" name="setup" finished-at="2023-12-12T20:57:41 IST" duration-ms="7651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LogInPaneltext()[pri:1, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:41 IST" name="LogInPaneltext" description="Functionality of LogInPage" finished-at="2023-12-12T20:57:43 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPaneltext -->
+        <test-method signature="usernameandpassword()[pri:2, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:43 IST" name="usernameandpassword" description="Giving Valid data of UserName And Password" finished-at="2023-12-12T20:57:47 IST" duration-ms="4608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameandpassword -->
+        <test-method signature="welComeAdmin()[pri:3, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:47 IST" name="welComeAdmin" description="Validating the WelCome Admin page" finished-at="2023-12-12T20:57:48 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welComeAdmin -->
+        <test-method signature="PIMMouseHover()[pri:4, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:48 IST" name="PIMMouseHover" description="Operating the functionality of PIM" finished-at="2023-12-12T20:57:48 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIMMouseHover -->
+        <test-method signature="AddEmployeeTextPageTest()[pri:5, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:48 IST" name="AddEmployeeTextPageTest" description="AddEmployee click operation and validating AddEmployee Page Functionality" finished-at="2023-12-12T20:57:50 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployeeTextPageTest -->
+        <test-method signature="UserData()[pri:6, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:50 IST" name="UserData" description="Giving the User Data Information Functionality" finished-at="2023-12-12T20:57:51 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserData -->
+        <test-method signature="photo()[pri:7, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:57:51 IST" name="photo" description="Validating the photography" finished-at="2023-12-12T20:58:03 IST" duration-ms="11515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- photo -->
+        <test-method signature="PersonalDetailsTest()[pri:8, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:58:03 IST" name="PersonalDetailsTest" description="Validating the Personal Details WebPAge" finished-at="2023-12-12T20:58:03 IST" duration-ms="46" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pdMainContainer"]/div[1]/h1"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1KAEUVT', ip: '192.168.0.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f797da08fc1c6bf29918806be9d0ccbf
+*** Element info: {Using=xpath, value=//*[@id="pdMainContainer"]/div[1]/h1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pdMainContainer"]/div[1]/h1"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1KAEUVT', ip: '192.168.0.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f797da08fc1c6bf29918806be9d0ccbf
+*** Element info: {Using=xpath, value=//*[@id="pdMainContainer"]/div[1]/h1}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.OHRM.personalDetails.PersonalDetailsTest(personalDetails.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalDetailsTest -->
+        <test-method signature="NameValidation()[pri:9, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:58:03 IST" name="NameValidation" description="Validating Name Functionality" finished-at="2023-12-12T20:58:03 IST" duration-ms="18" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='personal[txtEmpFirstName]']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1KAEUVT', ip: '192.168.0.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f797da08fc1c6bf29918806be9d0ccbf
+*** Element info: {Using=name, value=personal[txtEmpFirstName]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='personal[txtEmpFirstName]']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-1KAEUVT', ip: '192.168.0.112', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61585}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f797da08fc1c6bf29918806be9d0ccbf
+*** Element info: {Using=name, value=personal[txtEmpFirstName]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.OHRM.personalDetails.NameValidation(personalDetails.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NameValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OHRM.personalDetails@3ee37e5a]" started-at="2023-12-12T20:58:03 IST" name="teardown" finished-at="2023-12-12T20:58:04 IST" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OHRM.personalDetails -->
+    </test> <!-- personalDetailsfunctionality -->
+    <test started-at="2023-12-12T20:57:34 IST" name="EmployeeListfunctionality" finished-at="2023-12-12T20:58:14 IST" duration-ms="39935">
+      <class name="com.OHRM.EmployeeList">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:34 IST" name="setup" finished-at="2023-12-12T20:57:41 IST" duration-ms="7615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LogInPaneltext()[pri:1, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:41 IST" name="LogInPaneltext" description="Functionality of LogInPage" finished-at="2023-12-12T20:57:43 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPaneltext -->
+        <test-method signature="usernameandpassword()[pri:2, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:43 IST" name="usernameandpassword" description="Giving Valid data of UserName And Password" finished-at="2023-12-12T20:57:45 IST" duration-ms="2600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameandpassword -->
+        <test-method signature="welComeAdmin()[pri:3, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:45 IST" name="welComeAdmin" description="Validating the WelCome Admin page" finished-at="2023-12-12T20:57:46 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welComeAdmin -->
+        <test-method signature="PIMMouseHover()[pri:4, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:46 IST" name="PIMMouseHover" description="Operating the functionality of PIM" finished-at="2023-12-12T20:57:47 IST" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIMMouseHover -->
+        <test-method signature="AddEmployeeTextPageTest()[pri:5, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:47 IST" name="AddEmployeeTextPageTest" description="AddEmployee click operation and validating AddEmployee Page Functionality" finished-at="2023-12-12T20:57:48 IST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployeeTextPageTest -->
+        <test-method signature="UserData()[pri:6, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:48 IST" name="UserData" description="Giving the User Data Information Functionality" finished-at="2023-12-12T20:57:49 IST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserData -->
+        <test-method signature="photo()[pri:7, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:57:49 IST" name="photo" description="Validating the photography" finished-at="2023-12-12T20:58:01 IST" duration-ms="11795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- photo -->
+        <test-method signature="PersonalDetailsTest()[pri:8, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:58:01 IST" name="PersonalDetailsTest" description="Validating the Personal Details WebPAge" finished-at="2023-12-12T20:58:01 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalDetailsTest -->
+        <test-method signature="NameValidation()[pri:9, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:58:01 IST" name="NameValidation" description="Validating Name Functionality" finished-at="2023-12-12T20:58:01 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NameValidation -->
+        <test-method signature="ValidatingEmployeeListWebTable()[pri:10, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:58:01 IST" name="ValidatingEmployeeListWebTable" description="EmployeeListPage" finished-at="2023-12-12T20:58:02 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatingEmployeeListWebTable -->
+        <test-method signature="EmployeeListTable()[pri:11, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:58:02 IST" name="EmployeeListTable" description="EmployeeList table" finished-at="2023-12-12T20:58:10 IST" duration-ms="7189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmployeeListTable -->
+        <test-method signature="Logout()[pri:12, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:58:10 IST" name="Logout" description="LogOut Functionality" finished-at="2023-12-12T20:58:13 IST" duration-ms="3764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="LogInPage()[pri:13, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:58:13 IST" name="LogInPage" description="LogIn Page Validation" finished-at="2023-12-12T20:58:13 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.OHRM.EmployeeList@316bcf94]" started-at="2023-12-12T20:58:13 IST" name="teardown" finished-at="2023-12-12T20:58:14 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.OHRM.EmployeeList -->
+    </test> <!-- EmployeeListfunctionality -->
+  </suite> <!-- OrangeHrmApplicationParallel -->
+</testng-results>
